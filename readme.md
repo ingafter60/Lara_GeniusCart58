@@ -39,3 +39,12 @@
         > - new file:   resources/views/layouts/app.blade.php
         > - modified:   routes/web.php
     > - git commit -m "3. Create user auth"
+
+### 4. Redirect the authenticated user to homepage
+
+    > - modified:   app/Http/Controllers/Auth/LoginController.php
+    > - modified:   app/Http/Controllers/Auth/RegisterController.php
+    > - modified:   app/Http/Middleware/Authenticate.php
+    > - modified:   app/Http/Middleware/RedirectIfAuthenticated.php
+    > - modified:   config/filesystems.php
+    > - git commit -m "4. Redirect the authenticated user to homepage"
